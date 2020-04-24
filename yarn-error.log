@@ -1,0 +1,36 @@
+Arguments: 
+  /home/linuxbrew/.linuxbrew/var/nodebrew/node/v13.7.0/bin/node /home/linuxbrew/.linuxbrew/var/nodebrew/current/bin/yarn init
+
+PATH: 
+  /home/snowsphere/.rbenv/shims:/home/snowsphere/.local/bin:/home/linuxbrew/.linuxbrew/var/nodebrew/current/bin:/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin:/usr/local/bin:/usr/local/sbin:/home/snowsphere/.vscode-server/bin/ff915844119ce9485abfe8aa9076ec76b5300ddd/bin:/home/snowsphere/.rbenv/shims:/home/snowsphere/.local/bin:/home/linuxbrew/.linuxbrew/var/nodebrew/current/bin:/home/linuxbrew/.linuxbrew/bin:/home/linuxbrew/.linuxbrew/sbin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/c/Program Files (x86)/Common Files/Intel/Shared Libraries/redist/intel64/compiler:/c/Windows/system32:/c/Windows:/c/Windows/System32/Wbem:/c/Windows/System32/WindowsPowerShell/v1.0/:/c/Windows/System32/OpenSSH/:/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL:/c/Program Files/Intel/Intel(R) Management Engine Components/DAL:/c/Program Files/Git/cmd:/c/Program Files/dotnet/:/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/c/Program Files/Docker/Docker/resources/bin:/c/ProgramData/DockerDesktop/version-bin:/c/Users/mizuk/AppData/Local/Microsoft/WindowsApps:/c/Users/mizuk/AppData/Local/Programs/Microsoft VS Code/bin
+
+Yarn version: 
+  1.22.0
+
+Node version: 
+  13.7.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: canceled
+      at Interface.<anonymous> (/home/linuxbrew/.linuxbrew/var/nodebrew/node/v13.7.0/lib/node_modules/yarn/lib/cli.js:136987:13)
+      at Interface.emit (events.js:321:20)
+      at Interface._ttyWrite (readline.js:864:16)
+      at ReadStream.onkeypress (readline.js:203:10)
+      at ReadStream.emit (events.js:321:20)
+      at emitKeys (internal/readline/utils.js:450:14)
+      at emitKeys.next (<anonymous>)
+      at ReadStream.onData (readline.js:1131:36)
+      at ReadStream.emit (events.js:321:20)
+      at addChunk (_stream_readable.js:297:12)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
